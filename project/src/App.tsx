@@ -119,7 +119,7 @@ function App() {
                   
                   <img 
                     src="/logo.svg" 
-                    alt="P2P Marketplace Logo"
+                    alt="Logo"
                     className="h-[4.5rem] w-auto object-contain"
                   />
                 </Link>
