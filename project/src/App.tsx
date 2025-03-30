@@ -401,6 +401,35 @@ function App() {
             delay: 2
           }}
         />
+
+        {/* Video Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="py-16 bg-white rounded-2xl shadow-xl mb-12 border border-lavender-200"
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold text-lavender-800 mb-4">
+              Watch Our Project in Action
+            </h2>
+            <p className="text-lavender-600 mb-8">
+              Check out the video below to see how our platform works.
+            </p>
+            <div className="relative" style={{ width: '100%', height: '0', paddingBottom: '56.25%' }}>
+              <iframe
+                src="https://www.youtube.com/embed/W4xhFWyRovM"
+                title="P2P Ecommerce using Aptos"
+                className="absolute top-0 left-0 w-full h-full rounded-lg"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </motion.section>
       </div>
     </Router>
   );
