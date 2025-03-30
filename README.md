@@ -137,7 +137,7 @@ We welcome contributions to the **P2P Marketplace**! 🎉
 
 For any inquiries or feedback, feel free to reach out:
 
-📌 **Your Name**: [akshatjain1507@gmail.com](mailto\:your.email@example.com)
+📌 **Gmail**: [akshatjain1507@gmail.com](mailto\:your.email@example.com)
 📌 **GitHub**: [akshhaaatttt](https://github.com/yourusername)
 
 ---
