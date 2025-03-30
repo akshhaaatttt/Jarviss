@@ -11,6 +11,7 @@ import { WalletConnect } from './components/WalletConnect';
 import { ProductCard } from './components/ProductCard';
 import { SellProductForm } from './components/SellProductForm';
 import { useWallet } from '@aptos-labs/wallet-adapter-react';
+import m1 from './logo.png'
 import {
   Store,
   PlusCircle,
@@ -118,7 +119,7 @@ function App() {
                 >
                   
                   <img 
-                    src="/logo.svg" 
+                    src={m1}
                     alt="Logo"
                     className="h-[4.5rem] w-auto object-contain"
                   />
